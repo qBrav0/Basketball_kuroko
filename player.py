@@ -29,7 +29,7 @@ class Player:
             #skill_sum +=  0.7(dribble) * 100 | 80+ 70 = 150
 
         #skill_sum = 300
-        #self.palyer_coef = 300 * (1-0.3) | 210
+        #self.palyer_coef = 300 * (1-0.3) |  210
         self.palyer_coef = skill_sum * (1 - self.fatigue)
         
     def __str__(self):
